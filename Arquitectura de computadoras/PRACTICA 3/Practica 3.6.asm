@@ -1,0 +1,24 @@
+.DATA 1000H
+DB 12H ;X ; El programa hace sumatoria hasta del numero siguiente hasta hacer carry 
+; ejemplo 12 = 13+14+15+16+17+18+19...hasta carry
+.ORG 1005H
+MVI B, 10H
+MVI C, 00H ;direccion
+LDAX B ; se va el dato 06h a A
+MOV C, A ; SE VA C
+SUMATORIA:
+INR C ; SE INCREMENTA C 06H+1= 07H N>X 06H
+ADD C ; SE VA SUMANDO N+1
+JC FIN ; SI HAY ACARREO SE TERMINA
+JMP SUMATORIA
+FIN:
+MOV E, A ; SE VA A E EL RESULTADO
+INR D ; SE INCREMENTA D SI HUBO CARRY
+MVI H, 10H
+MVI L, 01H ; direccion memoria para el mas significativo
+MOV A,D ; se va a HIGH
+MOV M, A ;SE VA MEMORIA HIGH
+INR L ; SE INCREMENTA LA DIRECCION
+MOV A,E ; SE VA A ACUMULADOR EL DATO LOW
+MOV M, A ; SE VA A MEMORIA LOW
+HLT 

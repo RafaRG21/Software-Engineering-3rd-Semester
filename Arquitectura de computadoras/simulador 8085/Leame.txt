@@ -1,0 +1,20 @@
+   	       Proyecto Fin de Carrera 
+
+    SIMULADOR DE PROGRAMACIÓN DE MICROPROCESADOR 8085
+
+
+Departamento de Arquitectura y Tecnología de Computadores
+	    E.T.S. Ingeniería Informática
+             Universidad de Granada 2001
+
+
+
+	Realizado por:
+
+		Ángel Manuel Gómez García
+		Pedro Mesas García
+		José Ignacio Ruiz Núñez
+
+	Dirigido por:
+
+		Manuel Rodríguez Álvarez

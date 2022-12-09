@@ -1,0 +1,20 @@
+.DATA 1100h
+db 20h
+DB 15h
+.data 1105h
+db 10h
+db 7h
+.ORG 1020h
+MVI B, 10h
+MVI A, 20h
+MOV C, A
+MOV E, B
+SUB B
+MOV H, A
+MVI B, 07h
+MVI A,15h
+MOV D, A
+SUB B
+MOV L, A
+
+HLT

@@ -1,0 +1,50 @@
+.DATA 02h 00h
+09h 
+02h 
+0Bh 
+10h 
+0Eh 
+.ORG 00h 01h
+06h 00h 
+0Eh 02h 
+0Ah 
+57h 
+03h 
+0Ah 
+5Fh 
+7Ah 
+62h 
+6Ah 
+1Dh 
+15h 
+CAh 15h 01h 
+84h 
+C3h 0Dh 01h 
+55h 
+67h 
+1Dh 
+CAh 1Fh 01h 
+C3h 0Dh 01h 
+54h 
+16h 00h 
+0Ch 
+6Fh 
+2Dh 
+0Ah 
+67h 
+5Fh 
+5Fh 
+7Bh 
+84h 
+DAh 34h 01h 
+2Dh 
+CAh 3Dh 01h 
+C3h 27h 01h 
+14h 
+5Fh 
+2Dh 
+CAh 3Dh 01h 
+C3h 27h 01h 
+5Fh 
+D5h 
+76h 

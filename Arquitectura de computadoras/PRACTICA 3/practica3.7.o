@@ -1,0 +1,157 @@
+.DATA 98h 00h
+02h 
+04h 
+00h 
+00h 
+00h 
+00h 
+00h 
+00h 
+00h 
+00h 
+03h 
+.ORG 15h 01h
+06h 00h 
+C5h 
+C1h 
+04h 
+C5h 
+26h 00h 
+2Eh 00h 
+16h 00h 
+1Eh 98h 
+1Ah 
+16h 00h 
+5Fh 
+C1h 
+C5h 
+48h 
+06h 00h 
+CDh E5h 01h 
+16h 01h 
+1Eh 00h 
+7Ch 
+12h 
+16h 01h 
+1Eh 01h 
+7Dh 
+12h 
+C1h 
+C5h 
+C5h 
+C1h 
+05h 
+C5h 
+16h 00h 
+1Eh 99h 
+1Ah 
+4Fh 
+06h 00h 
+2Eh 00h 
+26h 00h 
+16h 00h 
+1Eh 99h 
+1Ah 
+5Fh 
+16h 00h 
+E1h 
+E5h 
+7Ch 
+2Eh 00h 
+26h 00h 
+FEh 00h 
+CAh 64h 01h 
+C3h 69h 01h 
+6Bh 
+62h 
+C3h 7Ah 01h 
+CDh E5h 01h 
+C1h 
+05h 
+C5h 
+78h 
+FEh 00h 
+CAh 7Ah 01h 
+44h 
+4Dh 
+C3h 4Dh 01h 
+C1h 
+16h 01h 
+1Eh 02h 
+7Ch 
+12h 
+16h 01h 
+1Eh 03h 
+7Dh 
+12h 
+16h 01h 
+1Eh 02h 
+1Ah 
+47h 
+16h 01h 
+1Eh 03h 
+1Ah 
+4Fh 
+16h 01h 
+1Eh 00h 
+1Ah 
+67h 
+16h 01h 
+1Eh 01h 
+1Ah 
+6Fh 
+54h 
+5Dh 
+26h 00h 
+2Eh 00h 
+CDh E5h 01h 
+16h 01h 
+1Eh 04h 
+7Ch 
+12h 
+16h 01h 
+1Eh 05h 
+7Dh 
+12h 
+16h 01h 
+1Eh 04h 
+1Ah 
+47h 
+16h 01h 
+1Eh 05h 
+1Ah 
+4Fh 
+16h 01h 
+1Eh 06h 
+1Ah 
+67h 
+16h 01h 
+1Eh 07h 
+1Ah 
+6Fh 
+09h 
+16h 01h 
+1Eh 06h 
+7Ch 
+12h 
+16h 01h 
+1Eh 07h 
+7Dh 
+12h 
+C1h 
+C5h 
+78h 
+FEh 03h 
+CAh E4h 01h 
+C3h 18h 01h 
+76h 
+19h 
+0Bh 
+79h 
+FEh 00h 
+CAh F0h 01h 
+C3h F4h 01h 
+78h 
+FEh 00h 
+C8h 
+C3h E5h 01h 

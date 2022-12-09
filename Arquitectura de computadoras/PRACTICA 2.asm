@@ -1,0 +1,11 @@
+.DATA 1020h
+DB 2h
+
+.ORG 1090h
+MVI B, E1h
+MVI A, 12h
+ADD B
+LXI H, 1100H
+.org 1100H
+MOV M, A
+HLT
